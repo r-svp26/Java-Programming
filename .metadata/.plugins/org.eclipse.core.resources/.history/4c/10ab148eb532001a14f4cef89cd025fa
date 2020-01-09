@@ -1,0 +1,30 @@
+package com.number.org;
+
+import java.util.Scanner;
+
+public class PrimeNumber {
+
+	public static int getPrime(int x) {
+
+		int n = 2;
+		for (int i = 2; i <= x; i++) {
+			if (x % n == 0 || x % n == 1) {
+				System.out.print("Prime Numbers are :");
+			} else {
+				System.out.println("");
+			}
+		}
+
+		return 1;
+	}
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the Numbers");
+		int p = sc.nextInt();
+		System.out.println(PrimeNumber.getPrime(p));
+
+	}
+
+}
