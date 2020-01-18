@@ -1,9 +1,0 @@
-package com.search.algo;
-
-import java.util.Scanner;
-
-public class LinearSearch {
-
-
-
-}
