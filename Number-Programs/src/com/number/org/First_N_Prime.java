@@ -17,7 +17,7 @@ public class First_N_Prime {
 				}
 			}
 			if (count == 0) {
-				System.out.print(i + " ");
+				System.out.print(i+ " ");
 			}
 		}
 	}

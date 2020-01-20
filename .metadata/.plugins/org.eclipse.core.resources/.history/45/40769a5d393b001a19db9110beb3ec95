@@ -1,0 +1,21 @@
+package com.number.org;
+
+import java.util.Scanner;
+
+public class Factorial {
+	
+	public static int fact(int n){
+		int fact=1;
+		for(int i=n;i<=n;i--){
+			fact=n*fact;
+		}
+		return fact;
+	}
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number");
+		int num=sc.nextInt();
+		System.out.println(Factorial.fact(num));
+	}
+	
+}
