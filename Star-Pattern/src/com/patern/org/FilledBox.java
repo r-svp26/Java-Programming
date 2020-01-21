@@ -14,7 +14,6 @@ public class FilledBox {
 			}
 			System.out.println(" ");
 		}
-
+		sc.close();
 	}
-
 }
