@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/String-Programs/src/com/string/org/FilledBox.java"/>
+<listEntry value="/Star-Pattern/src/com/patern/org/FilledBox.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.string.org.FilledBox"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="String-Programs"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.patern.org.FilledBox"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Star-Pattern"/>
 </launchConfiguration>

@@ -1,0 +1,23 @@
+package com.number.org;
+
+import java.util.Scanner;
+
+public class FibonacciSeries {
+	
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number");
+		int num=sc.nextInt();
+		int first=0;
+		int second=0;
+		
+		for(int i=0;i<num;i++){
+			System.out.print(first+" ");
+			int third=first+second;
+			first=second;
+			second=first;
+		}
+		
+	}
+
+}

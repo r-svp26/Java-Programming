@@ -1,0 +1,27 @@
+package com.string.in;
+
+import java.util.Scanner;
+
+public class ReverseWord {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the String");
+		String str = sc.next();
+		String[] strArr = str.split(" ");
+
+		// for(String temp:strArr){
+		// System.out.print(temp);
+		// }
+		
+		for (int i = 0; i < strArr.length; i++) {
+			char[] s1 = strArr[i].toCharArray();
+			for (int j = s1.length - 1; j >= 0; j--) {
+
+			}
+
+		}
+
+	}
+
+}

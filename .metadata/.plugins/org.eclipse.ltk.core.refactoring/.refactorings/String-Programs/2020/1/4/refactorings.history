@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.string.org&apos; to &apos;Star-Pattern/src&apos;&#x0D;&#x0A;- Original project: &apos;String-Programs&apos;&#x0D;&#x0A;- Destination element: &apos;Star-Pattern/src&apos;&#x0D;&#x0A;- Original element: &apos;String-Programs/src/com.string.org&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=Star-Pattern/src" element1="/src&lt;com.string.org" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1579503915332" version="1.0"/>
+</session>

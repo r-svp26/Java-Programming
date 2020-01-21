@@ -20,5 +20,6 @@ public class First_N_Prime {
 				System.out.print(i+ " ");
 			}
 		}
+		sc.close();
 	}
 }

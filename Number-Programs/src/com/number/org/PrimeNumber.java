@@ -3,6 +3,7 @@ package com.number.org;
 import java.util.Scanner;
 
 public class PrimeNumber {
+	
 	public static boolean isPrime(int num) {
 		if (num == 1) {
 			return false;
@@ -20,5 +21,6 @@ public class PrimeNumber {
 		System.out.println("Enter the Numbers");
 		int p = sc.nextInt();
 		System.out.println(PrimeNumber.isPrime(p));
+		sc.close();
 	}
 }
