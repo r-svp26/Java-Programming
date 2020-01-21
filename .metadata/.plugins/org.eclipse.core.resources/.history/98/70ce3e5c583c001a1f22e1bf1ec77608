@@ -1,0 +1,8 @@
+package com.string.in;
+
+public class WordCount {
+	
+	public static void main(String[] args) {
+		
+	}
+}

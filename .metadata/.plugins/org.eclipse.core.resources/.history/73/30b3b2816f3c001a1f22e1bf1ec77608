@@ -1,0 +1,7 @@
+package com.string.in;
+
+import java.util.Scanner;
+
+public class CharacterOccurance {
+	Scanner sc=new Scanner(System.in);
+}

@@ -1,0 +1,30 @@
+package com.string.in;
+
+import java.util.HashMap;
+import java.util.Map;
+//import java.util.Scanner;
+
+public class CountWords {
+
+	public static void main(String[] args) {
+		
+		String str="I love java java programming";
+
+		Map<String,Integer> map = new HashMap<String,Integer>();
+		Integer count = 1;
+		String[] arr = str.split(" ");
+
+		for (int i = 0; i < arr.length; i++) {
+			if (!map.containsKey(arr[i])) {
+				map.put(arr[i], count);
+			} else {
+				map.put(arr[i], count+ 1);
+			}
+		}
+		
+		// Printing output...
+		for (String st : map.keySet()) {
+			System.out.println("The count of word:" + st + "=" + map.get(st));
+		}
+	}
+}
