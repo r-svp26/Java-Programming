@@ -1,0 +1,17 @@
+package com.array.in;
+
+public class ReverseArray {
+	
+	public void reverseArray(int[] arr,int start,int end){
+		
+		while(start<end){
+			int temp=arr[start];
+			arr[start]=arr[end];
+			arr[end]=arr[temp];
+			start++;
+			end--;
+		}
+		
+	}
+
+}

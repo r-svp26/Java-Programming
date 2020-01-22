@@ -1,0 +1,14 @@
+package com.array.in;
+
+public class DuplicateElement {
+	
+	public static int duplicate(int[] arr){
+		
+		
+		
+		
+		
+		return 1;
+	}
+
+}

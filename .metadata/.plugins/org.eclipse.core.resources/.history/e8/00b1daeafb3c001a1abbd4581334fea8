@@ -1,0 +1,20 @@
+package com.array.in;
+
+public class ReverseArray {
+
+	public void reverseArray(int[] arr, int start, int end) {
+
+		while (start < end) {
+			int temp = arr[start];
+			arr[start] = arr[end];
+			arr[end] = arr[temp];
+			start++;
+			end--;
+		}
+	}
+
+	public static void main(String[] args) {
+		int[] arr={2,45,10,35,15,6,8};
+	}
+
+}
