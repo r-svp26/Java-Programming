@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.comparator.comparable&apos; to &apos;Collection-Program/src&apos;&#x0D;&#x0A;- Original project: &apos;OOPs-Concept&apos;&#x0D;&#x0A;- Destination element: &apos;Collection-Program/src&apos;&#x0D;&#x0A;- Original element: &apos;OOPs-Concept/src/com.comparator.comparable&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=Collection-Program/src" element1="/src&lt;com.comparator.comparable" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1579985456631" version="1.0"/>
+</session>
