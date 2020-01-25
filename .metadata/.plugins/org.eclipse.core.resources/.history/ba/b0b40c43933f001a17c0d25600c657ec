@@ -1,0 +1,13 @@
+package com.sorting.algo;
+
+public class SelectionSort {
+	
+	public  void selection_sort(int[] arr){
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

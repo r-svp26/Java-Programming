@@ -19,8 +19,8 @@ public class ReverseArray {
 		
 		int[] arr = { 2, 45, 10, 35, 15, 6, 8 };
 		System.out.println("Array before reverse:" + (Arrays.toString(arr)));
+		
 		reverseArray(arr, 0, arr.length - 1);
 		System.out.println("Array after reversed:" + (Arrays.toString(arr)));
 	}
-
 }
