@@ -1,0 +1,23 @@
+package com.linkedlist.ds;
+
+public class SinglyLinkedList {
+	private ListNode head;
+	
+	// Static inner class
+	public class ListNode{
+		private int data;   // usually it is generic type
+		private ListNode next;
+		
+		ListNode(int data){
+			this.data=data;
+			this.next=null;
+		}
+	}
+	
+	public static void main(String[] args) {
+		SinglyLinkedList sll=new SinglyLinkedList();
+		
+		sll.head=new ListNode(10);
+	}
+
+}
