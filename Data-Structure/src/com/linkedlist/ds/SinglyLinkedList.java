@@ -50,14 +50,14 @@ public class SinglyLinkedList {
 	}
 
 	/* To insert data at First index */
-	public void insertAtFirst(int value) {
+	public void insert_At_First(int value) {
 		ListNode newNode = new ListNode(value);
 		newNode.next = head;
 		head = newNode;
 	}
 
 	/* Insert data at last index */
-	public void insertAtLast(int value) {
+	public void insert_At_Last(int value) {
 		ListNode newNode = new ListNode(value);
 		if (head == null) {
 			head = newNode;
@@ -120,8 +120,9 @@ public class SinglyLinkedList {
 	}
 
 	public static void main(String[] args) {
+		
 		SinglyLinkedList sll = new SinglyLinkedList();
-
+		
 		/*
 		 * sll.head= new ListNode(10); ListNode second=new ListNode(1); ListNode
 		 * third=new ListNode(8); ListNode fourth=new ListNode(11);
@@ -132,15 +133,15 @@ public class SinglyLinkedList {
 		 */
 
 		/* To insert data at First index */
-		sll.insertAtFirst(8);
-		sll.insertAtFirst(3);
-		sll.insertAtFirst(3);
-		sll.insertAtFirst(1);
-		sll.insertAtFirst(1);
+		sll.insert_At_First(8);
+		sll.insert_At_First(3);
+		sll.insert_At_First(3);
+		sll.insert_At_First(1);
+		sll.insert_At_First(1);
 
 		/* Insert data at last index */
-		sll.insertAtLast(11);
-		sll.insertAtLast(13);
+		sll.insert_At_Last(11);
+		sll.insert_At_Last(13);
 
 		/* To display SinglyLinkedList */
 		System.out.println("Initial Singly-Linked-List");
