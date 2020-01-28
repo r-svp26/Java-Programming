@@ -72,7 +72,7 @@ public class DoublyLinkedList {
 		}
 		newNode.next = head;
 		head = newNode;
-		length++;			// To increase the size of Doubly-Linked-List
+		length++;
 	}
 
 	/* To add Last Node in Doubly-Linked-List */
@@ -85,7 +85,7 @@ public class DoublyLinkedList {
 			newNode.previous = tail;
 		}
 		tail = newNode;
-		length++;			// To increase the size of Doubly-Linked-List
+		length++;
 	}
 
 	/* To Delete First Node of Doubly-Linked-List */

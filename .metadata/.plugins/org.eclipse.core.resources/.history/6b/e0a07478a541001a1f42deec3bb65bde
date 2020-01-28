@@ -72,7 +72,7 @@ public class DoublyLinkedList {
 		}
 		newNode.next = head;
 		head = newNode;
-		length++;			// To increase the size of Doubly-Linked-List
+		length++;
 	}
 
 	/* To add Last Node in Doubly-Linked-List */
@@ -85,7 +85,7 @@ public class DoublyLinkedList {
 			newNode.previous = tail;
 		}
 		tail = newNode;
-		length++;			// To increase the size of Doubly-Linked-List
+		length++;
 	}
 
 	/* To Delete First Node of Doubly-Linked-List */
@@ -101,32 +101,15 @@ public class DoublyLinkedList {
 		}
 		head = head.next;
 		temp.next = null;
-		length--;			// To decrease the size of Doubly-Linked-List
+		length--;
 		return temp;
 	}
-	
-	/* To Delete Last Node of Doubly-Linked-List */
-	public ListNode delete_Last_Node(){
-		if(isEmpty()){
-			throw new NoSuchElementException();
-		}
-		ListNode temp= tail;
-		if(head==tail){
-			head=null;
-		}else{
-			tail.previous.next=null;
-		}
-		tail=tail.previous;
-		temp.previous=null;
-		length--;            // To decrease the size of Doubly-Linked-List
-		return temp; 
-	} 
- 
+
 	public static void main(String[] args) {
 
 		DoublyLinkedList dll = new DoublyLinkedList();
 
-		/* To add First Node in Doubly-Linked-List */
+		/* To add elements at the beginning */
 		dll.insert_At_First(22);
 		dll.insert_At_First(1);
 		dll.insert_At_First(10);
@@ -136,11 +119,10 @@ public class DoublyLinkedList {
 		dll.insert_At_Last(44);
 
 		dll.delete_First_Node();
-		dll.delete_Last_Node();
 
 		System.out.println("Doubly-Linked-List in forward direction");
 		dll.display_In_Forward();
-		System.out.println("Doubly-Linked-List in backward direction");
+		System.out.println("Doubly-Linked-List in forward direction");
 		dll.display_In_Backward();
 		System.out.println("The Size of Doubly-Linked-List ");
 		System.out.println(dll.size());

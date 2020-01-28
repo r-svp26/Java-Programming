@@ -72,7 +72,7 @@ public class DoublyLinkedList {
 		}
 		newNode.next = head;
 		head = newNode;
-		length++;			// To increase the size of Doubly-Linked-List
+		length++;
 	}
 
 	/* To add Last Node in Doubly-Linked-List */
@@ -85,7 +85,7 @@ public class DoublyLinkedList {
 			newNode.previous = tail;
 		}
 		tail = newNode;
-		length++;			// To increase the size of Doubly-Linked-List
+		length++;
 	}
 
 	/* To Delete First Node of Doubly-Linked-List */
@@ -101,7 +101,7 @@ public class DoublyLinkedList {
 		}
 		head = head.next;
 		temp.next = null;
-		length--;			// To decrease the size of Doubly-Linked-List
+		length--;
 		return temp;
 	}
 	
@@ -121,7 +121,7 @@ public class DoublyLinkedList {
 		length--;            // To decrease the size of Doubly-Linked-List
 		return temp; 
 	} 
- 
+
 	public static void main(String[] args) {
 
 		DoublyLinkedList dll = new DoublyLinkedList();
