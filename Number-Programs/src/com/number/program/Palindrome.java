@@ -5,18 +5,23 @@ import java.util.Scanner;
 public class Palindrome {
 
 	public static void main(String[] args) {
+
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Enter the Number:");
+		System.out.print("Enter the Number: ");
 		int num = sc.nextInt();
+
+		int org_num = num;
 		int rev = 0;
+
 		while (num > 0) {
 			rev = rev * 10 + num % 10;
 			num = num / 10;
 		}
-		if (num == rev)
-			System.out.println("Number is a Palindrome");
-		else
-			System.out.println("Number is not a Palindrome");
+		if (org_num == rev) {
+			System.out.println(org_num + " is a Palindrome");
+		} else {
+			System.out.println(org_num + " is not a Palindrome");
+		}
 		sc.close();
 	}
 }

@@ -1,0 +1,8 @@
+package com.filehandling.in;
+
+public class ReadTextFile {
+	public static void main(String[] args) {
+		
+	}
+
+}

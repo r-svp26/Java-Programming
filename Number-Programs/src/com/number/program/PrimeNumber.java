@@ -18,7 +18,7 @@ public class PrimeNumber {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the Numbers");
+		System.out.print("Enter the Number: ");
 		int p = sc.nextInt();
 		System.out.println(PrimeNumber.isPrime(p));
 		sc.close();

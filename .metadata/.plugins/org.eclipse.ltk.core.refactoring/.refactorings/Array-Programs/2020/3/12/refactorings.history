@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.array.in.AddElement&apos; to &apos;SumArrayElement&apos;&#x0D;&#x0A;- Original project: &apos;Array-Programs&apos;&#x0D;&#x0A;- Original element: &apos;com.array.in.AddElement&apos;&#x0D;&#x0A;- Renamed element: &apos;com.array.in.SumArrayElement&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;AddElement&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.array.in{AddElement.java[AddElement" matchStrategy="1" name="SumArrayElement" qualified="false" references="true" similarDeclarations="false" stamp="1584559491930" textual="false" version="1.0"/>
+</session>

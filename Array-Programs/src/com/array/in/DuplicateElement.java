@@ -30,7 +30,6 @@ public class DuplicateElement {
 	}
 
 	public static void main(String[] args) {
-
 		int[] array = { 10, 20, 12, 4, 2, 6, 2, 15, 10, 4 };
 
 		System.out.println("-----Using Brute Force Method-------");

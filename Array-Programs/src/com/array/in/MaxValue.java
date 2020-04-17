@@ -13,7 +13,6 @@ public class MaxValue {
 	}
 
 	public static void main(String[] args) {
-		
 		int[] arr = { 5, 4, 2, 10, 12, 15 };
 		System.out.println("Min value is:" + (MaxValue.findMax(arr)));
 	}

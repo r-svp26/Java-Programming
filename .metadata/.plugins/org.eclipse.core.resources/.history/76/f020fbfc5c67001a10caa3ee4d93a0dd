@@ -1,0 +1,15 @@
+package com.filehandling.in;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
+public class ReadTextFile {
+	public static void main(String[] args) {
+		try {
+			FileReader rd=new FileReader("C:\\Users\\rites\\OneDrive\\Desktop\\Accenture.text");
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+
+}
