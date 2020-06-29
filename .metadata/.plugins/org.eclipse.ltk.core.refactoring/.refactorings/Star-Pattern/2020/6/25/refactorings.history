@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Star-Pattern&apos;&#x0D;&#x0A;- Original project: &apos;Star-Pattern&apos;&#x0D;&#x0A;- Original element: &apos;Star-Pattern/src/com.patern.org&apos;" description="Delete element" element1="/src&lt;com.patern.org" element2="/src&lt;com.patern" element3="/src&lt;com" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1592335065199" subPackages="false" version="1.0"/>
+</session>

@@ -1,5 +1,4 @@
 package com.number.program;
-
 import java.util.Scanner;
 
 public class OddEvenCount {

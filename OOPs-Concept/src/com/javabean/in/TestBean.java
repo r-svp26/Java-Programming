@@ -5,6 +5,7 @@ public class TestBean {
 	public static void main(String[] args) {
 		
 		Student s = new Student();
+		
 		s.setId(101);
 		s.setName("Khusi Yadav");
 		s.setBranch("CSE");

@@ -1,0 +1,24 @@
+package com.array.interview;
+
+public class IndexOfArray {
+
+	public static int getIndexOf(int ele, int[] arr) {
+
+		for (int i = 0; i < arr.length; i++) {
+			if (ele == arr[i])
+				return i;
+		}
+		return -1;
+	}
+
+	public static void main(String[] args) {
+
+		int[] arr = { 34, 65, 85, 46, 74 };
+		int index = getIndexOf(46, arr);
+
+		if (index >= 0)
+			System.out.println("Indexof the Element:" + index);
+		else
+			System.out.println("Index not found");
+	}
+}

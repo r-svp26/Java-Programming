@@ -1,9 +1,7 @@
 package com.number.program;
-
 import java.util.Scanner;
 
 public class DigitCount {
-
 	public static int count(int num) {
 		int count = 0;
 		while (num > 0) {
@@ -12,7 +10,6 @@ public class DigitCount {
 		}
 		return count;
 	}
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number");

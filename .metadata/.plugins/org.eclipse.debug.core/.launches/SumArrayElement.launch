@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/Array-Programs/src/com/array/in/SumArrayElement.java"/>
+<listEntry value="/Array-Programs/src/com/array/jspider/SumArrayElement.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.array.in.SumArrayElement"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.array.jspider.SumArrayElement"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Array-Programs"/>
 </launchConfiguration>

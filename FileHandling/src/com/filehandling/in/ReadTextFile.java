@@ -23,5 +23,4 @@ public class ReadTextFile {
 			e.printStackTrace();
 		}
 	}
-
 }

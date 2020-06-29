@@ -9,6 +9,7 @@ public class CharacterCount {
 		int count = 0;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the String:");
+		
 		String st = sc.nextLine();
 		char[] ch = st.toCharArray();
 
