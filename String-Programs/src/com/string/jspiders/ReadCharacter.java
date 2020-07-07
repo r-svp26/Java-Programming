@@ -8,7 +8,7 @@ public class ReadCharacter {
 
 		char[] ch = st.toCharArray();
 		for (int i = 0; i < ch.length; i++) {
-			System.out.println(ch[i]);
+			System.out.print(ch[i]);
 		}
 	}
 
@@ -23,8 +23,9 @@ public class ReadCharacter {
 
 		System.out.println("STRING CHARACTER USING charAt");
 		for (int i = 0; i < st.length(); i++) {
-			System.out.println(st.charAt(i));
+			System.out.print(st.charAt(i));
 		}
+		System.out.println();
 		System.out.println("---------------------------------");
 
 		System.out.println("STRING CHARACTER USING toCharArray");

@@ -1,0 +1,44 @@
+package com.jsp.btm;
+
+public class PalindromeCounter {
+	
+	
+	public static boolean isPalindrome(String st){
+		
+		String rev = "";
+
+		for (int i = st.length() - 1; i >= 0; i--) {
+			rev = rev + st.charAt(i);
+		}
+		if (st.equalsIgnoreCase(rev))
+			return true;
+		 else 
+		return false;
+	}
+	
+	public static int palindromeCounter(String s){
+		
+		int count = 0;
+		boolean rs;
+		if(rs=isPalindrome(s)){
+			count++;
+		}
+		return count;
+	}
+	
+
+	public static void main(String[] args) {
+		
+		String s="tacocat";
+		
+//		boolean rs= isPalindrome(s);
+//		System.out.println(rs);
+		
+		int count = palindromeCounter(s);
+		System.out.println("Number of Palindrome:"+count);
+		
+		
+		
+	}
+
+}

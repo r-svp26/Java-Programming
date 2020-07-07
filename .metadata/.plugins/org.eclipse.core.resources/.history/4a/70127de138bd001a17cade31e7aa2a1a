@@ -1,0 +1,28 @@
+package com.list.collection;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class DuplicateElement {
+
+	public static void main(String[] args) {
+		
+		List<Integer> lst=new ArrayList<Integer>();
+		lst.add(10);
+		lst.add(15);
+		lst.add(12);
+		lst.add(15);
+		lst.add(29);
+		
+		System.out.print(lst+" ");
+		
+		Iterator<Integer> itr=lst.iterator();
+		while(itr.hasNext()){
+			Integer dc=itr.next();
+			if(dc==dc+1){
+				System.out.println(dc+" ");
+			}
+		}
+	}
+}

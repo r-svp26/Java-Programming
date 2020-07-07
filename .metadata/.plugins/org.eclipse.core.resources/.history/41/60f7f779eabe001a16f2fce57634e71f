@@ -1,0 +1,19 @@
+package com.array.interview;
+
+public class ConvertNum2String {
+
+	public static numToString(int num,String s){
+		
+		
+		String[] one={" ","Two","Thrree","Four","Five","Six","Seven","Eight","Nine","Ten",
+					"Eleven","Twelve","Thirteen","Fouteen","Fifteen","Sixteen","Seventeen",
+					"Eighteen","Nineteen","Twenteen"};
+		
+		String[] two={" ","Twenty","Thirty","Fourty","Fifty","Sixty","Seventy","Eighty","Ninety"};
+		
+	}
+
+	public static void main(String[] args) {
+
+	}
+}

@@ -7,6 +7,7 @@ public class Palindrome {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the String:");
 		String st = sc.next();
+		
 		String rev = "";
 
 		for (int i = st.length() - 1; i >= 0; i--) {

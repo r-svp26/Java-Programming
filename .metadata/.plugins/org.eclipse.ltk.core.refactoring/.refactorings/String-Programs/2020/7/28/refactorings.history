@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;MatchedString.java&apos; to &apos;InterviewBased/src/com.jsp.btm&apos;&#x0D;&#x0A;- Original project: &apos;String-Programs&apos;&#x0D;&#x0A;- Destination element: &apos;InterviewBased/src/com.jsp.btm&apos;&#x0D;&#x0A;- Original element: &apos;MatchedString.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=InterviewBased/src&lt;com.jsp.btm" element1="/src&lt;{MatchedString.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1594026587569" units="1" version="1.0"/>
+</session>
