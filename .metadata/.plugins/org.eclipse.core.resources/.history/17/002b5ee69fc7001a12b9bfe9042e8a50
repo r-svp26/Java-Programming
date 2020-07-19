@@ -1,0 +1,17 @@
+package com.string.interview;
+
+import java.util.Scanner;
+
+public class LastIndexOf {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Enter the String:");
+		String s1 = sc.nextLine();
+
+		System.out.print("Enter the SubString:");
+		String s2 = sc.next();
+	}
+}

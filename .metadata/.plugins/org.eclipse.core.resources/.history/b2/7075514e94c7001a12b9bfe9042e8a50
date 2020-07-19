@@ -1,0 +1,37 @@
+package com.string.interview;
+
+import java.util.Scanner;
+
+public class CountCharacter {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter the String:");
+		String st=sc.nextLine();
+		int vc=0,cc=0,uc=0,lc=0,spc=0,dc=0;
+		
+		for(int i=0;i<st.length();i++){
+			char ch = st.charAt(i);
+			if(ch>='A'&& ch<='Z'){
+				uc++;
+				if(ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'){
+					vc++;	
+				}else{
+					cc++;
+				}
+				if(ch>='a'&& ch<='z'){
+					uc++;
+					if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+						vc++;	
+					}else{
+						cc++;
+					}
+				
+			}
+			
+		}
+	}
+
+}
+}

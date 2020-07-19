@@ -1,9 +1,0 @@
-package com.array.interview;
-
-public class StrongCount {
-
-	public static void main(String[] args) {
-
-	}
-
-}

@@ -1,0 +1,17 @@
+package com.string.interview;
+
+public class SpecifiedIndexOf {
+	
+	public static int specifiedIndexOf(String s1,String s2,int occ){
+		
+		
+		return 1;
+		
+	}
+	
+	
+
+	public static void main(String[] args) {
+		
+	}
+}

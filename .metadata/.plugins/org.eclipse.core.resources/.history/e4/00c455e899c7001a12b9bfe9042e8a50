@@ -1,0 +1,22 @@
+package com.string.interview;
+
+public class CountSubString {
+
+	public static int countSubString(String string, String substr) {
+		
+		char[] ch1 = string.toCharArray();
+		char[] ch2=substr.toCharArray();
+		
+		int count=0;
+		
+		
+
+		return 1;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
