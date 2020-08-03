@@ -18,7 +18,7 @@ public class SumOfDigit {
 				sum = sum + ch[i] - 48;
 			}
 		}
-		System.out.println("The Number of Digit present is " + dcount + " and their is Sum:" + sum);
+		System.out.println("The Number of Digit present is " + dcount + " and their Sum is: " + sum);
 		sc.close();
 	}
 }
