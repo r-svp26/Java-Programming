@@ -1,0 +1,30 @@
+package com.iterator;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class Product {
+
+	public static void main(String[] args) {
+		
+		List<String> all=new ArrayList<>();
+		all.add("Rama");
+		all.add("Khusi");
+		all.add("null");
+		all.add("Rama");
+		all.add("Radha");
+		all.add("Shyama");
+		
+		System.out.println("LIST ELEMENT "+all);
+		
+		Iterator<String> itr=all.iterator();
+		while(itr.hasNext()){
+			String name=itr.next();
+			System.out.print(name+" ");
+			if(name=="null")
+				itr.remove();
+		}
+		System.out.println(all);
+	}
+}

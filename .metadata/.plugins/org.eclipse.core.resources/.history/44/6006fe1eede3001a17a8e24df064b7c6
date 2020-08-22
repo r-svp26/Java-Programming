@@ -1,0 +1,19 @@
+package com.constructor.channning;
+
+public class Child extends Super {
+	
+	public Child(){
+		this(10);
+		System.out.println("No args Child Constructor");
+	}
+	
+	public Child(int x){
+		super(x);
+		System.out.println("One args Child Constructor");
+	}
+	
+	public static void main(String[] args) {
+		Child c=new Child();
+		
+	}
+}

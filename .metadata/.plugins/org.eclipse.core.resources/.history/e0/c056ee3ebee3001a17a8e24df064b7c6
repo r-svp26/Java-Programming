@@ -1,0 +1,18 @@
+package org.comparable.interfaces;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		
+		List<Student> lst=new ArrayList<>();
+		
+		Student s1=new Student(1,"Ritesh Yadav","CS","Bangalore");
+		lst.add(s1);
+		
+		lst.add(new Student(2,"Khusi Yadav","EC","Patna"));
+		
+	}
+}

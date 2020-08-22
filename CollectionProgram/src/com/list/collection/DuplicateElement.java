@@ -27,5 +27,6 @@ public class DuplicateElement {
 			}
 		}
 		System.out.println("Number of Duplicate Element Present:" + count);
+		
 	}
 }

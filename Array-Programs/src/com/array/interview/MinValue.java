@@ -23,7 +23,7 @@ public class MinValue {
 
 		int[] arr = new int[n];
 
-		System.out.println("Enter " + n + "value");
+		System.out.println("Enter " + n + " value");
 		for (int i = 0; i < n; i++) {
 			arr[i] = sc.nextInt();
 		}

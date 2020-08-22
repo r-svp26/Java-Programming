@@ -1,0 +1,22 @@
+package org.comparable.interfaces;
+
+public class Student {
+	
+	int id;
+	String name;
+	String branch;
+	String loc;
+
+	public Student(int id, String name, String branch, String loc) {
+		
+		this.id = id;
+		this.name = name;
+		this.branch = branch;
+		this.loc = loc;
+	}
+
+	public static void main(String[] args) {
+		
+	}
+
+}
