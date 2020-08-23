@@ -1,0 +1,10 @@
+package org.serialization.in;
+
+public class SourceCopied {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

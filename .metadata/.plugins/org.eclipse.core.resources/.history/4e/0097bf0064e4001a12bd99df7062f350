@@ -1,0 +1,29 @@
+package com.outputstream.org;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class ContentCopied {
+
+	public static void main(String[] args) {
+		
+		FileInputStream fin=null;
+		FileOutputStream fout=null;
+		
+		try{
+			
+			fin=new FileInputStream("V:/Programming/TextFile/OriginalFile.txt");
+			
+			
+		}catch(FileNotFoundException e){
+			System.out.println(e);
+		} catch(IOException x){
+			System.out.println(x.getMessage());
+		}
+		
+		
+
+	}
+}

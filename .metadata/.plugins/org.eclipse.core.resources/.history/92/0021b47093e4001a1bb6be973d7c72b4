@@ -1,0 +1,26 @@
+package org.serialization.in;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.Vector;
+
+public class FileInfoCopied {
+
+	public static void main(String[] args) throws FileNotFoundException {
+
+		File file = new File("V:/Programming/TextFile");
+
+		File[] files = file.listFiles();
+
+		Vector vector = new Vector();
+
+		for (int i = 0; i < files.length; i++) {
+			if (files[i].getName().endsWith(".java")) {
+				FileInputStream fin = new FileInputStream(files[i]);
+				vector.add(fin);
+			}
+		}
+
+	}
+}

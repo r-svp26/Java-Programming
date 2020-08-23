@@ -1,0 +1,8 @@
+package org.thread.in;
+
+public class ThreadTest7 {
+
+	public static void main(String[] args) {
+
+	}
+}

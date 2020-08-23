@@ -1,0 +1,15 @@
+package org.thread.in;
+
+public class StopThread {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		JoinThread thread = new JoinThread();
+
+		thread.start();
+		Thread.sleep(100);
+
+		thread.destroy(); //
+
+	}
+}

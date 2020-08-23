@@ -1,0 +1,23 @@
+package com.inputstream.org;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class FileCharCount {
+
+	public static void main(String[] args) {
+
+		FileInputStream fis = null;
+
+		try {
+			fis = new FileInputStream("V:/Programming/TextFile/InputFile.txt");
+			System.out.println(fis.available());
+		} catch (FileNotFoundException e) {
+			System.out.println(e);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+	}
+}

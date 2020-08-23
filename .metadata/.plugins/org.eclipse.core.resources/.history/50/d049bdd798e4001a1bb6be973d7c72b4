@@ -1,0 +1,13 @@
+package org.serialization.in;
+
+/* WAJP to Copy Same Program Content( Source Code ) to another File */
+
+public class SourceCopied {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Main method Started...");
+		FileInputStream fin=new FileInputStream("V:\Programming\FileHandling\src\org\serialization\in\SourceCopied");
+
+	}
+}

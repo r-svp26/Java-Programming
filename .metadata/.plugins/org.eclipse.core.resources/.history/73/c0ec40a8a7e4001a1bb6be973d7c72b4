@@ -1,0 +1,14 @@
+package org.thread.in;
+
+public class MainThread3 extends Thread{
+
+	@Override
+	public void run() {
+		for(char i='A' ; i<='Z';i++){
+			System.out.print(i);
+			
+		}
+	}
+	
+
+}

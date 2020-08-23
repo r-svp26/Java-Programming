@@ -1,0 +1,12 @@
+package org.file.in;
+
+import java.io.File;
+
+public class FileUtilityMethods {
+
+	public static void main(String[] args) {
+		
+		File file=new File("V:/Programming/TextFile/InputFile");
+
+	}
+}

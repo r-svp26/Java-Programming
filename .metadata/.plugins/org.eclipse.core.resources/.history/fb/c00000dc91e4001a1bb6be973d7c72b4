@@ -1,0 +1,9 @@
+package org.serialization.in;
+
+public class FileInfoCopied {
+
+	public static void main(String[] args) {
+
+	}
+
+}

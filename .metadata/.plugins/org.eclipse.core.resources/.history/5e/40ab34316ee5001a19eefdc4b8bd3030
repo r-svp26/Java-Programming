@@ -1,0 +1,11 @@
+package org.thread.in;
+
+public class SuspedThread {
+
+	public static void main(String[] args) {
+		
+		SuspendThread thread=new SuspendThread();
+		
+		
+	}
+}

@@ -1,0 +1,29 @@
+package com.outputstream.org;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class ContentWrite {
+
+	public static void main(String[] args) {
+
+		String st = "I have written through Java code...";
+		FileOutputStream fout = null;
+
+		try {
+			fout = new FileOutputStream("V:/Programming/TextFile/OutputFile.txt");
+			byte[] b = st.getBytes();
+
+			fout.write(b);
+			fout.flush();
+
+		} catch (FileNotFoundException e) {
+			System.out.println(e.getMessage());
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

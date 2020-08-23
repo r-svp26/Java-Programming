@@ -1,0 +1,8 @@
+package com.outputstream.org;
+
+public class ContentCopied {
+
+	public static void main(String[] args) {
+
+	}
+}

@@ -1,0 +1,38 @@
+package org.thread.in;
+
+public class ThreadExample {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Main Started...");
+		
+		
+		System.out.println("Thread-1 Info ");
+		Thread t1=new Thread();
+		System.out.println(t1.getId());
+		System.out.println(t1.getPriority());
+		System.out.println(t1.getName());
+		System.out.println("---------------------");
+		
+		System.out.println("Thread-2 Info ");
+		Thread t2=new Thread("JSpiders");
+		System.out.println(t2.getId());
+		System.out.println(t2.getPriority());
+		System.out.println(t2.getName());
+		System.out.println("---------------------");
+		
+		System.out.println("Thread-3 Info ");
+		Thread t3=new Thread(new MyRunnable());
+		System.out.println(t3.getId());
+		System.out.println(t3.getPriority());
+		System.out.println(t3.getName());
+		
+//		Thread t4=new Thread(new Runnable,"QSpiders");
+//		System.out.println(t4.getId());
+//		System.out.println(t4.getPriority());
+//		System.out.println(t4.getName());
+		
+		System.out.println("Main End!");
+		
+	}
+}

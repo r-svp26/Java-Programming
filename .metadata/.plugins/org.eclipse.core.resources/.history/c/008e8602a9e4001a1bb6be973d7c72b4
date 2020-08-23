@@ -1,0 +1,15 @@
+package org.thread.in;
+
+public class ThreadTest3_4 {
+
+	public static void main(String[] args) {
+
+		MainThread3 thread3 = new MainThread3();
+		MainThread4 thread4 = new MainThread4();
+
+		thread3.start();
+		thread3.start(); 
+		
+		thread4.start();
+	}
+}

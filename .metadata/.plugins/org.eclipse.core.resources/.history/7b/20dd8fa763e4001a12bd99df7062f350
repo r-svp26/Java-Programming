@@ -1,0 +1,23 @@
+package com.outputstream.org;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+
+public class ContentCopied {
+
+	public static void main(String[] args) {
+		
+		FileInputStream fin=null;
+		FileOutputStream fout=null;
+		
+		try{
+			
+			fin=new FileInputStream(" ");
+			
+			
+		}
+		
+		
+
+	}
+}

@@ -1,0 +1,29 @@
+package org.thread.in;
+
+public class SimpleTest {
+
+	public static void main(String[] args) {
+		
+		SimpleThread sthread=new SimpleThread();
+		
+		class Thread1 extends Thread{
+			@Override
+			public void run(){
+				sthread.display();
+			}
+		}
+		
+		class Thread2 extends Thread{
+			@Override
+			public void run() {
+				sthread.print();
+			}
+		}
+		
+		Thread1 t1=new Thread1();
+		Thread t2=new Thread();
+		t1.start();
+		t2.start();
+		
+	}
+}

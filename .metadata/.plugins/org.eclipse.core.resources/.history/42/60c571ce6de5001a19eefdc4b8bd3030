@@ -1,0 +1,8 @@
+package org.thread.in;
+
+public class SuspentThread {
+
+	public static void main(String[] args) {
+		
+	}
+}
