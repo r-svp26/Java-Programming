@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class BinaryString {
 
-	public static String rev(String str1, int... j) {
+	public static String reverse(String str1, int... j) {
 
 		int f;
 		try {
@@ -37,9 +37,9 @@ public class BinaryString {
 				for (int j = 0; i + j <= str1.length(); j++) {
 					String temp = "";
 					if (i + j < str1.length()) {
-						temp = st.substring(0, j) + rev(st, j, (i + j)) + st.substring(i + j);
+						temp = st.substring(0, j) + reverse(st, j, (i + j)) + st.substring(i + j);
 					} else {
-						temp = st.substring(0, j) + rev(st, j);
+						temp = st.substring(0, j) + reverse(st, j);
 					}
 					possibility.add(temp);
 					if (curPossibility.contains(str2)) {
