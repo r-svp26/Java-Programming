@@ -1,8 +1,0 @@
-package org.thread.in;
-
-public class MainThread5 {
-
-	public static void main(String[] args) {
-
-	}
-}

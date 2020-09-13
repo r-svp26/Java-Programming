@@ -1,8 +1,0 @@
-package com.inputstream.org;
-
-public class FileCharCount {
-
-	public static void main(String[] args) {
-
-	}
-}

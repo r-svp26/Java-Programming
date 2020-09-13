@@ -15,12 +15,12 @@ public class ReverseArray {
 		int[] arr = new int[n];
 
 		System.out.println("Enter " + n + " integer value:");
-		for (int i = 0; i < n; i++) {
+		for (int i = 0; i < arr.length; i++) {
 			arr[i] = sc.nextInt();
 		}
 		
 		System.out.println("Reversed Array:");
-		for (int i = n-1; i >= 0; i--) {
+		for (int i = arr.length-1; i >= 0; i--) {
 			System.out.print(arr[i] + " ");
 		}
 		sc.close();

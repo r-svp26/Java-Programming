@@ -1,8 +1,0 @@
-package com.filehandling.in;
-
-public class FileExample {
-
-	public static void main(String[] args) {
-		
-	}
-}

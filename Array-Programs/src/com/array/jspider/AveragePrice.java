@@ -14,7 +14,6 @@ public class AveragePrice {
 		for (int i = 0; i < n; i++) {
 			total = total + price[i];
 		}
-		
 		System.out.println("Total price: " + total);
 		System.out.println("Average price: " + total / n);
 	}

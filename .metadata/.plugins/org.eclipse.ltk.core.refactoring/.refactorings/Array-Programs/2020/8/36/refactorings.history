@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Array-Programs/src/com/array/jspider/PositiveNegativeCount.java&apos; to &apos;PNegCount.java&apos;" description="Rename resource &apos;PositiveNegativeCount.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/array/jspider/PositiveNegativeCount.java" name="PNegCount.java" stamp="1598876525349" updateReferences="true"/>
+</session>

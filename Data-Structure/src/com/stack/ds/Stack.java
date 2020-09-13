@@ -3,6 +3,7 @@ package com.stack.ds;
 import java.util.EmptyStackException;
 
 public class Stack {
+	
 	private ListNode top;
 	private int length;
 	

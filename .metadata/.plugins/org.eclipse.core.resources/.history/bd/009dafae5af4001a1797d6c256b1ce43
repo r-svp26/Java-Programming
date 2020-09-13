@@ -1,0 +1,64 @@
+
+
+	
+	import java.util.HashSet;
+	import java.util.Scanner;
+
+	public class BinaryString {
+		
+		public static String rev(String st1, int... j) {
+			int f;
+			try {
+				f = j[1];
+			}catch(Exception e){
+				f = st1.length();
+			}
+			String temp = st1.substring(j[0],f);
+			StringBuffer sbr = new StringBuffer(temp); 
+	        sbr.reverse(); 
+	        return sbr.toString();
+		}
+		
+		static int countMinSteps(String st1, String st2) {
+			if(st1.length()!=st2.length()) {
+				return -1;
+			}
+			int steps = 0;
+			HashSet<String> possibilities = new HashSet<String>();
+			possibilities.add(st1);
+			if(possibilities.contains(st2)) {
+				return steps;
+			}
+			for(int i=2;i<=st1.length();i++) {
+				for(String stringFromSet : possibilities) {
+					for(int j=0;i+j<=st1.length();j++) {
+						String temp = "";
+						if(i+j<st1.length()) {
+							temp = stringFromSet.substring(0,j)+ rev(stringFromSet, j, (i+j)) + stringFromSet.substring(i+j);
+						}else {
+							temp = stringFromSet.substring(0,j)+ rev(stringFromSet, j);
+						}
+						possibilities.add(temp);
+					}
+					steps++;
+					if(possibilities.contains(st2)) {
+						return steps;
+					}
+				}
+			}
+			return -1;
+		}
+			
+		public static void main(String[] args) {
+			Scanner sc = new Scanner(System.in);
+			System.out.println("Enter the Strings");
+			String st1 = sc.next();
+			String st2 = sc.next();
+			int steps = countMinSteps(st1, st2);
+			if(steps>0) {
+				System.out.println(steps);
+			}else 
+				System.out.println("-1");
+			sc.close();
+		}
+	}

@@ -17,7 +17,7 @@ public class PrintArray {
 			arr[i] = sc.nextInt();
 		}
 		for (int j = 0; j < arr.length; j++) {
-			System.out.println(j + " " + arr[j]);
+			System.out.println(j+": " + arr[j]);
 		}
 		sc.close();
 	}

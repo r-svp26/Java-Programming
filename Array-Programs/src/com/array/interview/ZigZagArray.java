@@ -1,4 +1,4 @@
-package com.array.interview;
+ package com.array.interview;
 
 public class ZigZagArray {
 

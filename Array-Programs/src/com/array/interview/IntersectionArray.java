@@ -16,24 +16,24 @@ public class IntersectionArray {
 				}
 			}
 		}
-		int[] finalArr = new int[k];
-		for (int i = 0; i < k; i++) {
-			finalArr[i] = z[i];
+		int[] arr = new int[k];
+		for (int i = 0; i < arr.length; i++) {
+			arr[i] = z[i];
 		}
-		return finalArr;
+		return arr;
 	}
 
 	public static void main(String[] args) {
 
-		int[] a = { 4, 6, 10, 16, 25, 24 };
+		int[] a = { 4, 6, 10, 16, 25, 24,3};
 		int[] b = { 3, 6, 17, 20, 16, 25, 28 };
 
 		System.out.print("ARRAY AFTER INTERSECTION OPERATION: ");
 
-		int[] finalArr = interSection(a, b);
+		int[] arr= interSection(a, b);
 
-		for (int i = 0; i < finalArr.length; i++) {
-			System.out.print(finalArr[i] + " ");
+		for (int i = 0; i < arr.length; i++) {
+			System.out.print(arr[i] + " ");
 		}
 	}
 }

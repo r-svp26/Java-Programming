@@ -18,8 +18,8 @@ public class StudentTest {
 		student.add(new Student(5, "Radha", "CE", "Bhopal"));
 
 		System.out.println("Sorting using Student ID: Comparator");
+		
 		Comparator<Student> id_cmptr = new Comparator<Student>() {
-
 			@Override
 			public int compare(Student s1, Student s2) {
 				if (s1.getId() > s2.getId())
@@ -38,8 +38,8 @@ public class StudentTest {
 		System.out.println("------------------------------------------------------");
 
 		System.out.println("Sorting using Student Name: Comparator");
+		
 		Comparator<Student> name_cmptr = new Comparator<Student>() {
-
 			@Override
 			public int compare(Student s1, Student s2) {
 				return s1.getName().compareTo(s2.getName());

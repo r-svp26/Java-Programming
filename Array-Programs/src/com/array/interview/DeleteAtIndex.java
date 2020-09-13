@@ -2,28 +2,28 @@ package com.array.interview;
 
 public class DeleteAtIndex {
 
-	public static int[] deleteAtIndex(int[] arr, int index) {
+	public static int[] deleteAtIndex(int[] x, int index) {
 
-		if (index < 0 || index > arr.length) {
+		if (index < 0 || index > x.length) {
 			System.out.println("Index out of boud");
-			return arr;
+			return x;
 		}
+		int[] arr = new int[x.length - 1];
 
-		int[] newArr = new int[arr.length - 1];
-		for (int i = 0; i < newArr.length; i++) {
+		for (int i = 0; i < arr.length; i++) {
 			if (i < index) {
-				newArr[i] = arr[i];
+				arr[i] = x[i];
 			} else {
-				newArr[i] = arr[i + 1];
+				arr[i] = x[i + 1];
 			}
 		}
-		return newArr;
+		return arr;
 	}
 
 	public static void main(String[] args) {
 
-		int[] arr = { 10, 20, 30, 40, 50, 60 };
-		int[] newArr = deleteAtIndex(arr, 2);
+		int[] x = { 10, 20, 30, 40, 50, 60 };
+		int[] newArr = deleteAtIndex(x, 4);
 
 		System.out.print("MODIFIED ARRAY: ");
 		for (int i = 0; i < newArr.length; i++) {

@@ -6,6 +6,7 @@ public class DuplicateElement {
 
 	// Using Brute Force Method
 	public static void duplicate(int[] arr) {
+		
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = i + 1; j < arr.length; j++) {
 				if (arr[i] == arr[j]) {
@@ -21,12 +22,12 @@ public class DuplicateElement {
 	public static void findDuplicate(int[] arr) {
 
 		Arrays.sort(arr);
-		for (int i = 0; i < arr.length - 1; i++) {
+		for (int i = 0; i < arr.length-1; i++) {
 			if (arr[i] == arr[i + 1]) {
 				System.out.println("Duplicate elements found:" + arr[i]);
 			}
 		}
-		// Time Complexity : single for loop + Sorting logic ---->O(n)+O(nlogn).
+		// Time Complexity : single for loop + Sorting logic ---->O(n)+O(n log n).
 	}
 
 	public static void main(String[] args) {

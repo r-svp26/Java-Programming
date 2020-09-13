@@ -7,7 +7,7 @@ public class PrimeNumber {
 	public static boolean isPrime(int num) {
 
 		int i = 2;
-		while (i < num / 2) {
+		while (i <= num / 2) {
 			if (num == 0 || num == 1 || num % i == 0) {
 				return false;
 			}

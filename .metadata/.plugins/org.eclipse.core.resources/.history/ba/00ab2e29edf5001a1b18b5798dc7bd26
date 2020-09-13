@@ -1,0 +1,66 @@
+import java.util.HashSet;
+import java.util.Scanner;
+
+public class BinaryString {
+
+	public static String rev(String st1, int... j) {
+
+		int f;
+		try {
+			f = j[1];
+		} catch (Exception e) {
+			f = st1.length();
+		}
+		String temp = st1.substring(j[0], f);
+		StringBuffer sb = new StringBuffer(temp);
+		sb.reverse();
+		return sb.toString();
+	}
+
+	static int countStep(String st1, String st2) {
+		if (st1.length() != st2.length()) {
+			return -1;
+		}
+		int step = 0;
+		HashSet<String> allPossibilities = new HashSet<String>();
+		allPossibilities.add(st1);
+		if (allPossibilities.contains(st2)) {
+			return step;
+		}
+		for (int i = 2; i <= st1.length(); i++) {
+			HashSet<String> currentPossibilities = new HashSet<String>(allPossibilities);
+			HashSet<String> toRemove = new HashSet<String>();
+			for (String stringFromSet : currentPossibilities) {
+				for (int j = 0; i + j <= st1.length(); j++) {
+					String temp = "";
+					if (i + j < st1.length()) {
+						temp = stringFromSet.substring(0, j) + rev(stringFromSet, j, (i + j))
+								+ stringFromSet.substring(i + j);
+					} else {
+						temp = stringFromSet.substring(0, j) + rev(stringFromSet, j);
+					}
+					allPossibilities.add(temp);
+					if (currentPossibilities.contains(st2)) {
+						return step;
+					}
+				}
+				toRemove.add(stringFromSet);
+			}
+			step++;
+			allPossibilities.removeAll(toRemove);
+		}
+		return -1;
+	}
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the String");
+
+		String st1 = sc.next();
+		String st2 = sc.next();
+		int step = countStep(st1, st2);
+		System.out.println(step);
+		sc.close();
+	}
+}

@@ -13,7 +13,6 @@ public class CountFileCharacter {
 		FileInputStream fis = null;
 
 		try {
-
 			fis = new FileInputStream("V:/Programming/TextFile/InputFile.txt");
 			System.out.println(fis.available());
 

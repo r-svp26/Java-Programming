@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;BinarySearch.java&apos; to &apos;softxyz&apos;" description="Move &apos;BinarySearch.java&apos; to &apos;softxyz&apos;" destination="src/com/softxyz" element1="/Test/src/BinarySearch.java" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1600023132733" updateReferences="true"/>
+</session>

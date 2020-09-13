@@ -9,14 +9,15 @@ public class EvenOddCount {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Enter the size of the Array:");
+		System.out.print("Enter the Size of the Array:");
 		int n = sc.nextInt();
 
 		int[] arr = new int[n];
-		System.out.println("Enter " + n + " elements of the Array");
+		System.out.println("Enter " + n + " Elements of the Array");
 		for (int i = 0; i < n; i++) {
 			arr[i] = sc.nextInt();
 		}
+		
 		int ecount = 0;
 		int ocount = 0;
 		for (int i = 0; i < arr.length; i++) {
@@ -26,8 +27,8 @@ public class EvenOddCount {
 				ocount++;
 			}
 		}
-		System.out.println("Total even number present are:" + ecount);
-		System.out.println("Total even number present are:" + ocount);
+		System.out.println("Total Even Number Present:" + ecount);
+		System.out.println("Total Odd Number Present:" + ocount);
 		sc.close();
 	}
 }

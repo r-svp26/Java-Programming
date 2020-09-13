@@ -34,7 +34,7 @@ public class SpecifiedIndexOf {
 		System.out.print("Enter the First String:");
 		String s1=sc.nextLine();
 		
-		System.out.print("Enter the First String:");
+		System.out.print("Enter the Second String:");
 		String s2=sc.nextLine();
 		
 		int index=specifiedIndexOf(s1,s2,3);

@@ -14,6 +14,6 @@ public class LinearSearch {
 	public static void main(String[] args) {
 
 		int[] arr = { 10, 23, 25, 15, 26,65 };
-		System.out.println(LinearSearch.linear_search(arr,25));
+		System.out.println(LinearSearch.linear_search(arr,26));
 	}
 }

@@ -24,7 +24,7 @@ public class PerfectCount {
 		for (int i = 0; i < arr.length; i++) {
 			boolean rs = isPerfect(arr[i]);
 			if (rs == true)
-				count++; 
+				count++;
 		}
 		System.out.println("PerfectNumber present in the Array:" + count);
 	}
