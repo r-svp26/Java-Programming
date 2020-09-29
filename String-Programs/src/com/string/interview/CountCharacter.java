@@ -31,6 +31,7 @@ public class CountCharacter {
 				spc++;
 			}
 		}
+		
 		System.out.println("Number of Vowel Count: " + vc);
 		System.out.println("Number of Consonent Count: " + cc);
 		System.out.println("Number of UpperCase Count: " + uc);

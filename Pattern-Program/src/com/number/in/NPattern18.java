@@ -1,6 +1,13 @@
 package com.number.in;
 
 import java.util.Scanner;
+/*
+ 			1 
+			0 1 
+			1 0 1 
+			0 1 0 1 
+			1 0 1 0 1 
+ */
 
 public class NPattern18 {
 
@@ -13,7 +20,7 @@ public class NPattern18 {
 		for (int i = 1; i <= n; i++) {
 			int k = i;
 			for (int j = 1; j <= i; j++) {
-				System.out.print(k%2 + " ");
+				System.out.print(k % 2 + " ");
 				k++;
 			}
 			System.out.println();

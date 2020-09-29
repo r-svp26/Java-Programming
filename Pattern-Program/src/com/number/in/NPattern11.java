@@ -2,6 +2,14 @@ package com.number.in;
 
 import java.util.Scanner;
 
+/*
+ 			1 2 3 4 5 
+			  2 3 4 5 
+			    3 4 5 
+			      4 5 
+			        5 
+ */
+
 public class NPattern11 {
 
 	public static void main(String[] args) {

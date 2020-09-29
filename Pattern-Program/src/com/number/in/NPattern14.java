@@ -1,6 +1,13 @@
 package com.number.in;
 
 import java.util.Scanner;
+/*
+ 				1     
+		      2 1 2 
+		    3 2 3 2 3 
+		  4 3 4 3 4 3 4 
+		5 4 5 4 5 4 5 4 5 
+ */
 
 public class NPattern14 {
 
@@ -16,8 +23,8 @@ public class NPattern14 {
 			}
 			int p = i;
 			for (int k = 1; k <= 2 * i - 1; k++) {
-				System.out.print(p+" ");
-				if(p<i)
+				System.out.print(p + " ");
+				if (p < i)
 					p++;
 				else
 					p--;

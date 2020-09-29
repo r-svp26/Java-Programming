@@ -1,6 +1,15 @@
 package com.number.in;
 
 import java.util.Scanner;
+/*
+ 			      4 
+			    3 3 3 
+			  2 2 2 2 2 
+			1 1 1 1 1 1 1 
+			  2 2 2 2 2 
+			    3 3 3 
+			      4 
+ */
 
 public class NPattern25 {
 
@@ -20,7 +29,7 @@ public class NPattern25 {
 			for (int k = 1; k <= ele; k++) {
 				System.out.print(p + " ");
 			}
-			if (i <= n/2) {
+			if (i <= n / 2) {
 				sp--;
 				ele = ele + 2;
 			} else {

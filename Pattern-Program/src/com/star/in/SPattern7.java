@@ -2,6 +2,17 @@ package com.star.in;
 
 import java.util.Scanner;
 
+/*
+ 					      * 
+					    * * * 
+					  * * * * * 
+					* * * * * * * 
+					  * * * * * 
+					    * * * 
+					      * 
+ 
+ */
+
 public class SPattern7 {
 
 	public static void main(String[] args) {

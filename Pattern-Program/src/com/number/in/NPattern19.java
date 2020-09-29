@@ -1,6 +1,13 @@
 package com.number.in;
 
 import java.util.Scanner;
+/*
+ 		1 
+		2 3 
+		4 5 6 
+		7 8 9 10 
+		11 12 13 14 15 
+ */
 
 public class NPattern19 {
 
@@ -9,8 +16,8 @@ public class NPattern19 {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the Number:");
 		int n = sc.nextInt();
-		
-		int k=1;
+
+		int k = 1;
 		for (int i = 1; i <= n; i++) {
 			for (int j = 1; j <= i; j++) {
 				System.out.print(k + " ");

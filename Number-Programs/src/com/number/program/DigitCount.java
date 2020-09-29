@@ -11,9 +11,11 @@ public class DigitCount {
 		return count;
 	}
 	public static void main(String[] args) {
+		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number");
 		int x = sc.nextInt();
+		
 		System.out.println(DigitCount.count(x));
 		sc.close();
 	}

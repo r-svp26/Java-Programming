@@ -1,7 +1,9 @@
 package com.number.program;
+
 import java.util.Scanner;
 
 public class OddEvenCount {
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the number:");
@@ -13,11 +15,11 @@ public class OddEvenCount {
 
 		while (num != 0) {
 			rem = num % 10;
-			if (rem % 2 == 0) {
+			if (rem % 2 == 0)
 				evenCount++;
-			} else {
+			else
 				oddCount++;
-			}
+			
 			num = num / 10;
 		}
 		System.out.println("Even digits :" + evenCount);

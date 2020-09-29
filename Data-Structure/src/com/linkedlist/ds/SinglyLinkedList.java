@@ -1,6 +1,7 @@
 package com.linkedlist.ds;
 
 public class SinglyLinkedList {
+	
 	private static ListNode head;
 
 	private static class ListNode {
@@ -159,5 +160,6 @@ public class SinglyLinkedList {
 		ListNode reverseList = sll.reverse(head);
 		System.out.println("Singly-Linked-List after Reversed");
 		sll.display(reverseList);
+		
 	}
 }

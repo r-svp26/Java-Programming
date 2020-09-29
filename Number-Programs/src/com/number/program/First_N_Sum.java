@@ -6,10 +6,8 @@ public class First_N_Sum {
 
 	public static int addRange(int num) {
 		int sum = 0;
-		int i = 1;
-		while (num >= i) {
+		for (int i = 1; i <= num; i++) {
 			sum = sum + i;
-			i++;
 		}
 		return sum;
 	}
@@ -22,3 +20,9 @@ public class First_N_Sum {
 		sc.close();
 	}
 }
+
+// int i = 1;
+// while (num >= i) {
+// sum = sum + i;
+// i++;
+// }

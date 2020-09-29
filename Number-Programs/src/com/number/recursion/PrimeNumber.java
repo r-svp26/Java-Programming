@@ -5,13 +5,14 @@ import java.util.Scanner;
 public class PrimeNumber {
 
 	static boolean isPrime(int n) {
+
 		int i = 2;
-		if (n % i == 0 || n == 1) {
+		if (n % i == 0 || n == 1)
 			return false;
-		}
-		if (i > n / 2) {
+
+		if (i > n / 2)
 			return true;
-		}
+
 		return isPrime(i + 1);
 	}
 

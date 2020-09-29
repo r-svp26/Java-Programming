@@ -8,7 +8,6 @@ public class DuplicateElement {
 	public static void main(String[] args) {
 
 		List<Integer> lst = new ArrayList<Integer>();
-
 		lst.add(10);
 		lst.add(15);
 		lst.add(12);
@@ -27,6 +26,5 @@ public class DuplicateElement {
 			}
 		}
 		System.out.println("Number of Duplicate Element Present:" + count);
-		
 	}
 }

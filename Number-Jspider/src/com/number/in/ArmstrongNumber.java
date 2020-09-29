@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ArmstrongNumber {
 
 	public static boolean isArmstrong(int num) {
-
+		
 		int sum = 0;
 		int temp = num;
 

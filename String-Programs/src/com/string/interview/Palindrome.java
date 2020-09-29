@@ -23,7 +23,7 @@ public class Palindrome {
 
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the String:");
-		String st = sc.nextLine();
+		String st = sc.next();
 
 		boolean rs = isPalindrome(st);
 		if (rs == true)

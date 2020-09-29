@@ -28,5 +28,6 @@ public class BinarySearch {
 
 		int[] arr = { 10, 20, 1, 59, 47, 75, 65, 88, 98 };
 		System.out.println(BinarySearch.binary_search(arr, 65));
+		
 	}
 }
