@@ -2,6 +2,14 @@ package com.character.in;
 
 import java.util.Scanner;
 
+/*
+			A B C D E 
+			  B C D E 
+			    C D E 
+			      D E 
+			        E
+ */
+
 public class ChPattern10 {
 
 	public static void main(String[] args) {

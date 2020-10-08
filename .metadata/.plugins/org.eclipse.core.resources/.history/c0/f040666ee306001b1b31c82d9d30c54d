@@ -1,0 +1,8 @@
+package org.array.in;
+
+public class MinMax {
+
+	public static void main(String[] args) {
+
+	}
+}

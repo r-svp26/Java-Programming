@@ -10,11 +10,12 @@ public class Palindrome {
 		System.out.print("Enter the Number: ");
 		int num = sc.nextInt();
 
-		int temp= num;
+		int temp = num;
 		int rev = 0;
 
 		while (num > 0) {
-			rev = rev * 10 + num % 10;
+			int rem = num % 10;
+			rev = rev * 10 + rem;
 			num = num / 10;
 		}
 		if (temp == rev)
@@ -22,6 +23,6 @@ public class Palindrome {
 		else
 			System.out.println(temp + " is not a Palindrome");
 		sc.close();
-		
+
 	}
 }

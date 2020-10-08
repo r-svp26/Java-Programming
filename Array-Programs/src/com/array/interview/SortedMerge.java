@@ -18,6 +18,16 @@ public class SortedMerge {
 				k++;
 			}
 		}
+		while (i < x.length) {
+			z[k] = x[i];
+			k++;
+			i++;
+		}
+		while (j < y.length) {
+			z[k] = y[j];
+			k++;
+			j++;
+		}
 		return z;
 	}
 
