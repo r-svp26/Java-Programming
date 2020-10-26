@@ -3,19 +3,13 @@ package com.sorting.algo;
 public class BubbleSort {
 
 	public static void bubble_sort(int[] arr) {
-		int flag, temp;
 		for (int i = 0; i < arr.length - 1; i++) {
-			flag = 0;
-			for (int j = 0; j < arr.length - 1 - i; j++) {
-				if (arr[j] > arr[j + 1]) {
-					temp = arr[j];
-					arr[j] = arr[j + 1];
-					arr[j + 1] = temp;
-					flag = 1;
+			for (int j = i + 1; j < arr.length; j++) {
+				if (arr[i] > arr[j]) {
+					int temp = arr[i];
+					arr[i] = arr[j];
+					arr[j] = temp;
 				}
-			}
-			if (flag == 0) {
-				break;
 			}
 		}
 	}
