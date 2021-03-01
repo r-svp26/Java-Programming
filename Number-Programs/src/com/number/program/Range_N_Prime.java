@@ -14,10 +14,15 @@ public class Range_N_Prime {
 	}
 
 	public static void main(String[] args) {
-		for (int i = 2; i <= 100; i++) {
+
+		int count=0;
+		for (int i = 2; i <= 50; i++) {
 			boolean rs = isPrime(i);
 			if (rs) {
+				count++;
 				System.out.print(i + " ");
+				if (count == 15)
+					break;
 			}
 		}
 	}

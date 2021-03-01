@@ -7,9 +7,10 @@ public class Palindrome {
 	public static boolean isPalindrome(String s) {
 
 		String st = s.toLowerCase();
-		int size = st.length() - 1, f = 0;
-		char[] ch = st.toCharArray();
 
+		int f = 0, size = st.length() - 1;
+
+		char[] ch = st.toCharArray();
 		for (int i = 0; i < size; i++) {
 			if (ch[f] != ch[size])
 				return false;
@@ -27,9 +28,9 @@ public class Palindrome {
 
 		boolean rs = isPalindrome(st);
 		if (rs == true)
-			System.out.println("String is Palindrome");
+			System.out.println("String is Palindrome!");
 		else
-			System.out.println("String is not a Palindrome");
+			System.out.println("String is not a Palindrome!");
 		sc.close();
 	}
 }

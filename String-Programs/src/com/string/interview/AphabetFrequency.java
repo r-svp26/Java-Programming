@@ -21,7 +21,7 @@ public class AphabetFrequency {
 			}
 		}
 		for (int i = 0; i < count.length; i++) {
-			if (count[i] != 0)
+			if (count[i] > 0)
 				System.out.println((char) (i + 65) + "-->" + count[i]);
 		}
 		sc.close();

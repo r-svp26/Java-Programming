@@ -2,8 +2,6 @@ package com.conversion.in;
 
 import java.util.Scanner;
 
-// WAJP to 
-
 public class Decimal2Binary {
 
 	public static void main(String[] args) {
@@ -18,7 +16,7 @@ public class Decimal2Binary {
 			bin = rem + bin;
 			num = num / 2;
 		} while (num != 0);
-		System.out.println("Binary Number is:" + bin);
+		System.out.println("Binary Number is: " + bin);
 		sc.close();
 	}
 }

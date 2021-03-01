@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
-<entry loc="C:\Program Files\Java\jre1.8.0_241" stamp="1579502493925"/>
-<entry loc="C:\Program Files\Java\jre1.8.0_231" stamp="1579502533822"/>
-<entry loc="C:\Program Files\Java\jre1.8.0_221" stamp="1595443556166"/>
-<entry loc="C:\Program Files\Java\jre1.8.0_261" stamp="1596432091440"/>
-<entry loc="C:\Program Files\Java\jre1.8.0_251" stamp="1587317438466"/>
+    <entry loc="D:\Software\Java\eclipse-jee-2020-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre" stamp="1607580188000"/>
+    <entry loc="D:\Software\Java\eclipse-jee-2020-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507" stamp="1607580188000"/>
+    <entry loc="C:\Program Files\Java\jre1.8.0_241" stamp="1579502493925"/>
+    <entry loc="C:\Program Files\Java\jre1.8.0_231" stamp="1579502533822"/>
+    <entry loc="C:\Program Files\Java\jre1.8.0_221" stamp="1595443556166"/>
+    <entry loc="C:\Program Files\Java\jre1.8.0_271" stamp="1603347866073"/>
+    <entry loc="C:\Program Files\Java\jre1.8.0_261" stamp="1596432091440"/>
+    <entry loc="C:\Program Files\Java\jre1.8.0_251" stamp="1587317438466"/>
 </dirs>

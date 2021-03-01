@@ -25,7 +25,7 @@ public class InsertAtIndex {
 	public static void main(String[] args) {
 
 		int[] x = { 10, 20, 30, 40, 50 };
-		int[] arr = insertAtIndex(x,3,19);
+		int[] arr = insertAtIndex(x,3,101);
 		
 		System.out.print("MODIFIED ARRAY: ");
 		for (int i = 0; i < arr.length; i++) {

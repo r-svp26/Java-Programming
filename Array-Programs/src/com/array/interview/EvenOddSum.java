@@ -18,8 +18,7 @@ public class EvenOddSum {
 			arr[i] = sc.nextInt();
 		}
 
-		int esum = 0;
-		int osum = 0;
+		int esum = 0, osum = 0;
 
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] % 2 == 0) {
@@ -29,7 +28,7 @@ public class EvenOddSum {
 			}
 		}
 		System.out.println("The sum of even number are:" + esum);
-		System.out.println("The sum of even number are:" + osum);
+		System.out.println("The sum of odd number are:" + osum);
 		sc.close();
 	}
 }

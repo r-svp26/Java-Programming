@@ -17,7 +17,7 @@ public class CountWord {
 				count++;
 			}
 		}
-		System.out.println("The Number of Words:" + count);
+		System.out.println("The Number of Word:" + count);
 		sc.close();
 	}
 }

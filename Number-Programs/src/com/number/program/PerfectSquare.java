@@ -4,14 +4,13 @@ import java.util.Scanner;
 
 public class PerfectSquare {
 
-	public static boolean isPerfect(int num) {
+	public static boolean isPerfect(int n) {
 
-		for (int i = 1; i <= num; i++) {
-			int perfect;
-			if (num % i == 0) {
-				perfect = i * i;
-
-				if (num == perfect)
+		int temp;
+		for (int i = 1; i <= n; i++) {
+			if (n % i == 0) {
+				temp = i * i;
+				if (temp == n)
 					return true;
 			}
 		}
@@ -23,8 +22,8 @@ public class PerfectSquare {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the Number: ");
 
-		int p = sc.nextInt();
-		System.out.println(PerfectSquare.isPerfect(p));
+		int n = sc.nextInt();
+		System.out.println(PerfectSquare.isPerfect(n));
 		sc.close();
 	}
 }

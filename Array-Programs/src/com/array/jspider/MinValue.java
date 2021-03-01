@@ -16,6 +16,6 @@ public class MinValue {
 	public static void main(String[] args) {
 
 		int[] arr = { 5, 4, 2, 10, 12, 15 };
-		System.out.println("Max value is:" + (MinValue.getMin(arr)));
+		System.out.println("Min value is:" + (MinValue.getMin(arr)));
 	}
 }

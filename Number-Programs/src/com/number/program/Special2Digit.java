@@ -2,20 +2,22 @@ package com.number.program;
 
 import java.util.Scanner;
 
+// 19 29
+
 public class Special2Digit {
 
-	public static boolean isSpl2Digit(int num) {
-		
-		int a=num%10;
-		int b=num/10;
-		int splDigit=((a+b)+(a*b));
-		
-		if(splDigit==num){
-		return true;
+	public static boolean isSpl2Digit(int n) {
+
+		int a = n % 10;
+		int b = n / 10;
+		int temp = ((a + b) + (a * b));
+
+		if (temp == n) {
+			return true;
 		}
 		return false;
 	}
-	
+
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);

@@ -43,7 +43,7 @@ public class PrimeCount {
 
 		int count = 0;
 		for (int i = 0; i < arr.length; i++) {
-			boolean rs = isPrime(i);
+			boolean rs = isPrime(arr[i]);
 			if (rs == true) {
 				count++;
 			}
@@ -53,7 +53,6 @@ public class PrimeCount {
 
 	public static void main(String[] args) {
 
-		System.out.println("ENTER THE ARRAY ELEMENTS");
 		int[] arr = readArray();
 
 		System.out.print("User Entered Array: ");

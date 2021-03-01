@@ -1,4 +1,4 @@
-package com.star.in;
+ package com.star.in;
 
 import java.util.Scanner;
 

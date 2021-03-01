@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class Factorial {
 
-	public static int fact(int num) {
+	public static int fact(int n) {
 		
 		int fact = 1;
-		while (num > 1) {
-			fact = fact * num;
-			num--;
+		while (n > 1) {
+			fact = fact * n;
+			n--;
 		}
 		return fact;
 	}

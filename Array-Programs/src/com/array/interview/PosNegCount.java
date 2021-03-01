@@ -41,7 +41,6 @@ public class PosNegCount {
 
 	public static void main(String[] args) {
 
-		System.out.println("ENTER THE ARRAY ELEMENTS");
 		int[] arr = readArray();
 
 		System.out.print("User Entered Array: ");

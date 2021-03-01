@@ -22,7 +22,7 @@ public class LowHighPercentage {
 		double low = per[0];
 		double high = per[1];
 		
-		for (int i = 0; i < n; i++) {
+		for (int i = 1; i < n; i++) {
 			
 			if (per[i] < low) {
 				low = per[i];

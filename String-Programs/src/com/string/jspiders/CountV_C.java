@@ -23,8 +23,8 @@ public class CountV_C {
 					cc++;
 			}
 		}
-		System.out.println("Number of Vowels:" + vc);
-		System.out.println("Number of Consonents:" + cc);
+		System.out.println("Number of Vowel:" + vc);
+		System.out.println("Number of Consonent:" + cc);
 		sc.close();
 	}
 }

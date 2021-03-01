@@ -9,7 +9,7 @@ public class ConvertU2LCase {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the String:");
+		System.out.print("Enter the String:");
 
 		String st = sc.nextLine();
 		char[] ch = st.toCharArray();

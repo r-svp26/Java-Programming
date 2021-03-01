@@ -13,7 +13,6 @@ public class PrimeNumber {
 		if (i > n / 2) {
 			return true;
 		}
-
 		return isPrime(i + 1);
 	}
 

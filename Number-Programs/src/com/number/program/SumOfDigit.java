@@ -1,4 +1,4 @@
-package com.number.program;
+ package com.number.program;
 
 import java.util.Scanner;
 
@@ -7,9 +7,8 @@ public class SumOfDigit {
 	public static int digitSum(int num) {
 
 		int sum = 0;
-		int rem = 0;
 		while (num > 0) {
-			rem = num % 10;
+			int rem = num % 10;
 			sum = sum + rem;
 			num = num / 10;
 		}

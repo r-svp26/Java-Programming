@@ -48,7 +48,7 @@ public class EvenOddCount {
 		System.out.print("User Entered Array: ");
 		display(arr);
 
-		System.out.println(" "); // Next Line
+		System.out.println(" "); // Next Line Only!
 
 		int[] countarr = countEvenOdd(arr);
 		System.out.println("Number of Even Elements: " + countarr[0]);

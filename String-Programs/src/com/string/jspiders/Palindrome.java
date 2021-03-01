@@ -27,6 +27,8 @@ public class Palindrome {
 
 		boolean rs = isPalindrome(st);
 		System.out.println(rs);
+		
+		 sc.close();
 	}
 
 }

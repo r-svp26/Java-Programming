@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class StrongNumber {
 
 	public static boolean isStrong(int num) {
-
+		
 		int sum = 0, temp = num;
+		
 		do {
 			int rem = num % 10;
-
 			int fact = 1;
 			while (rem > 1) {
 				fact = fact * rem;
@@ -34,6 +34,5 @@ public class StrongNumber {
 		boolean rs = isStrong(num);
 		System.out.println(rs);
 		sc.close();
-
 	}
 }

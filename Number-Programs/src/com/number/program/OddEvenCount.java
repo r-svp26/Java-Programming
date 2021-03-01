@@ -5,25 +5,25 @@ import java.util.Scanner;
 public class OddEvenCount {
 
 	public static void main(String[] args) {
+
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the number:");
-		int num = sc.nextInt();
+		int n = sc.nextInt();
 
-		int evenCount = 0;
-		int oddCount = 0;
-		int rem = 0;
+		int eCount = 0, oCount = 0, rem = 0;
 
-		while (num != 0) {
-			rem = num % 10;
+		while (n != 0) {
+			rem = n % 10;
 			if (rem % 2 == 0)
-				evenCount++;
+				eCount++;
 			else
-				oddCount++;
-			
-			num = num / 10;
+				oCount++;
+
+			n = n / 10;
 		}
-		System.out.println("Even digits :" + evenCount);
-		System.out.println("Odd digits :" + oddCount);
+
+		System.out.println("Even digit:" + eCount);
+		System.out.println("Odd digit:" + oCount);
 		sc.close();
 	}
 }

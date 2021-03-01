@@ -7,18 +7,17 @@ public class Binary2Decimal {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the Binary Number");
-		int num = sc.nextInt();
+		System.out.print("Enter the Binary Number: ");
+		int n = sc.nextInt();
 
-		int dec = 0;
-		int pow = 1;
-
+		int dec = 0, pow = 1;
+		
 		do {
-			int rem = num % 10;
+			int rem = n % 10;
 			dec = dec + rem * pow;
 			pow = pow * 2;
-			num = num / 10;
-		} while (num != 0);
+			n = n / 10;
+		} while (n != 0);
 		System.out.println("The Decimal Number is:" + dec);
 		sc.close();
 	}

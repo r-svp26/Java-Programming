@@ -15,16 +15,15 @@ public class ReverseWord {
 		String st = sc.nextLine();
 		
 		char[] ch = st.toCharArray();
-
 		String rst = "";
 
 		for (int i = 0; i < ch.length; i++) {
-			int j = i;
+			int f = i;
 			while (i < ch.length && ch[i] != ' ')
 				i++;
 
 			int k = i - 1;
-			while (k >= j) {
+			while (k >= f) {
 				rst = rst + ch[k];
 				k--;
 			}

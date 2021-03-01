@@ -2,6 +2,8 @@ package com.number.program;
 
 import java.util.Scanner;
 
+// 6 28
+
 public class PerfectNumber {
 
 	public static void main(String[] args) {

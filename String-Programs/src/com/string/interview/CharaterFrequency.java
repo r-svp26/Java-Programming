@@ -15,9 +15,10 @@ public class CharaterFrequency {
 		for (int i = 0; i < st.length(); i++) {
 			char ch = st.charAt(i);
 			count[ch]++;
+
 		}
-		for (int i = 0; i < 128; i++) {
-			if (count[i]!=0) {
+		for (int i = 0; i < count.length; i++) {
+			if (count[i] != 0) {
 				System.out.println((char) i + "-->" + count[i]);
 			}
 		}

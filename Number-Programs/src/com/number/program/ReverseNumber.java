@@ -1,4 +1,4 @@
-package com.number.program;
+ package com.number.program;
 
 import java.util.Scanner;
 

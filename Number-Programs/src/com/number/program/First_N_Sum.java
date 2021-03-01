@@ -21,8 +21,6 @@ public class First_N_Sum {
 	}
 }
 
-// int i = 1;
-// while (num >= i) {
-// sum = sum + i;
-// i++;
-// }
+/*
+ * int i = 1; while (num >= i) { sum = sum + i; i++; }
+ */

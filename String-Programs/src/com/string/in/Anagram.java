@@ -87,10 +87,10 @@ public class Anagram {
 		boolean b = compare(s1, s2);
 
 		if (b) {
-			System.out.println("String is Anagram");
+			System.out.println("String is Anagram!");
 		}
 		 else {
-			System.out.println("String is not a Anagram");
+			System.out.println("String is not a Anagram!");
 		 }
 		sc.close();
 	}

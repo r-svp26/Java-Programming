@@ -5,18 +5,18 @@ public class ZigZagArray {
 	public static int[] zigZag(int[] x, int[] y) {
 
 		int[] z = new int[x.length + y.length];
-		int j = 0;
+		int k = 0;
 
 		for (int i = 0; i < z.length;) {
-			if (j < x.length) {
-				z[i] = x[j];
+			if (k < x.length) {
+				z[i] = x[k];
 				i++;
 			}
-			if (j < y.length) {
-				z[i] = y[j];
+			if (k < y.length) {
+				z[i] = y[k];
 				i++;
 			}
-			j++;
+			k++;
 		}
 		return z;
 	}

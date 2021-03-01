@@ -10,14 +10,13 @@ public class Decimal2Octal {
 		System.out.print("Enter the Decimal Number:");
 		int num = sc.nextInt();
 
-		String oct = "";
-
+		String oct = " ";
 		do {
 			int rem = num % 8;
 			oct = rem + oct;
 			num = num / 8;
 		} while (num != 0);
-		System.out.println("Octal Number is:" + oct);
+		System.out.println("Octal Number is :" + oct);
 		sc.close();
 	}
 }

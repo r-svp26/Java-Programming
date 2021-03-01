@@ -6,7 +6,7 @@ public class FrequencyCountAll {
 
 	public static void main(String[] args) {
 
-		int[] arr = { 10, 23, 56, -43, 23, 76, -43, 56 };
+		int[] arr = { 10, -23,10, 56, -23, 76, 10};
 		int size = arr.length;
 
 		for (int i = 0; i < size; i++) {
@@ -19,7 +19,8 @@ public class FrequencyCountAll {
 					j--;
 				}
 			}
-			System.out.println(arr[i] + "-->" + count);
+			System.out.println(arr[i]+  "-->" + count);
 		}
 	}
 }
+

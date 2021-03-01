@@ -10,10 +10,10 @@ public class UpperToLowerLetter {
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the String: ");
-		String st = sc.nextLine();
+		String st = sc.nextLine(); 
 		char[] ch = st.toCharArray();
 		for (int i = 0; i < ch.length; i++) {
-			if (ch[i] >= 65 && ch[i] <= 90) {
+			if (ch[i] >= 'A' && ch[i] <= 'Z') {
 				ch[i] = (char) (ch[i] + 32);
 			}
 		}

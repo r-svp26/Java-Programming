@@ -27,7 +27,11 @@ public class BinarySearch {
 	public static void main(String[] args) {
 
 		int[] arr = { 10, 20, 1, 59, 47, 75, 65, 88, 98 };
-		System.out.println(BinarySearch.binary_search(arr, 65));
+		System.out.println(BinarySearch.binary_search(arr, 20));
+		
+		System.out.println(arr.length);
+		System.out.println(arr[0]);
+		
 		
 	}
 }

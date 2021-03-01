@@ -41,7 +41,7 @@ public class MinValueSecond {
 
 		int[] arr = readArray();
 
-		int sec_Max = second_Min(arr);
-		System.out.println("Second Max in the Array:" + sec_Max);
+		int sec_Min = second_Min(arr);
+		System.out.println("Second Min in the Array:" + sec_Min);
 	}
 }
